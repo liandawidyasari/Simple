@@ -1,0 +1,237 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:Arial;
+  background: #34495e;
+}
+.title{
+    position: relative;
+
+  }
+.title h1{
+  color:white;
+  font-size: 100px;
+  padding: 150px 10%;
+
+}
+h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
+    color: #eeeeee;
+    margin:0px;
+    padding:0px;
+    font-family: Arial;
+    }
+
+.custom-select {
+    position: relative;
+    font-family: Arial;  
+  }
+  
+.custom-select select {
+   display: none; /*hide original SELECT element: */
+  }
+  
+.select-selected {
+  background-color: #3498db;
+  }
+  .active {
+    background-color: #34495e;
+    color: white;
+    border: 1px solid #3498db;
+    background: none;
+    border-radius: 30px;
+    transition: 0.35s;
+
+  }
+  .header{
+    color: #191919;
+    justify-content: flex-end;
+    display: flex;
+    padding: 30px 10%;
+  }
+.topnav{
+  background-color: #191919;
+    overflow: hidden;
+  }
+.topnav a{
+    float: left;
+    color: #34495e;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font: 400 15px Lato, sans-serif;
+
+  }
+.topnav a:hover{
+    background-color: #cacaca;
+    color: white;
+    border: 1px solid #3498db;
+    background: none;
+    border-radius: 30px;
+    transition: 0.4s;
+  } 
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+  }
+  .box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    transition: 0.25s;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+    
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+  }
+input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+input[type = "submit"]:hover{
+    background: #2ecc71;
+  }
+ 
+/* Style inputan dan pilihan (selected) */
+input,select{
+padding:10px 30px;
+background: none;
+display: block;
+border:1px solid #3498db;
+margin-top:2px;
+width:230px;
+color: white;
+font-size:14px;
+border-radius: 24px;
+transition: 0.25s;
+}
+ 
+select{
+width:auto;
+padding:2px;
+color:white;
+background-color: #191919;
+}
+ 
+.formline{
+padding:3px;
+}
+ 
+label{
+font-size:13px;
+display:block;
+text-align:right;
+}
+ 
+table{
+width:370px;
+}
+ 
+td{
+font-size:11px;
+}
+ 
+.input-container{
+padding:1px;
+}
+ 
+/* Style Form */
+#form-daftar,.registered{  
+padding:15px;
+background: #191919;
+color:#203360;
+margin:30px auto 40px auto;
+width:400px;
+}
+
+.table1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-shadow: 1px 1px 0px #fff;
+    background: #eaebec;
+    border: #ccc 1px solid;
+  }
+   
+  .table1 th {
+    padding: 15px 35px;
+    border-left:1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    background: #ededed;
+  }
+   
+  .table1 th:first-child{  
+    border-left:none;  
+  }
+   
+  .table1 tr {
+    text-align: center;
+    padding-left: 20px;
+  }
+   
+  .table1 td:first-child {
+    text-align: left;
+    padding-left: 20px;
+    border-left: 0;
+  }
+   
+  .table1 td {
+    padding: 15px 35px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+    background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+  }
+   
+  .table1 tr:last-child td {
+    border-bottom: 0;
+  }
+   
+  .table1 tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+   
+  .table1 tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+   
+  .table1 tr:hover td {
+    background: #f2f2f2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+    background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+  }
